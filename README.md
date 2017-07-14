@@ -1,7 +1,9 @@
+## Welcome!
+
 This is an introduction to the learning approach and resources that we have developed in the group. The overall goal is to learn how to use the R statistical computing language for day-to-day business tasks by investigating interesting non-financial datasets. For most of us, R can be a useful extra tool to use alongside Excel, Tableau and our other analysis applications.
 
 ## Why Now? 
-Excel will remain a central analysis tool for almost all of us. However these are some of the things that you might do more easily with R than with Excel a little practice:-
+Excel will remain a central analysis tool for all of us. However these are some of the things that you might do more easily with R than with Excel a little practice:-
 
 * create a reliable, readable, documented record of a data analysis process. No reliance on opaque spreadsheet formulas, pivot table setups, recalculation and fragile VBA code which make teamwork and checking difficult
 * easily create top-quality, modern, legible charts with much more control than Excel
@@ -29,7 +31,7 @@ Excel will remain a central analysis tool for almost all of us. However these ar
 
 ## What are Kaggle kernels? 
 
-Kaggle is a website that organises data science competitions. One of the company's key goals is education and building data analysis communities, and there is no need to take an active part in competitions to benefit from its resources. In particular, we can make use of (i) a wide range of interesting datasets that Kaggle has curated and made available for use; and (ii) a cloud-based computing environment which allows us to analyse these data using R, Python and other open-source data analysis computing languages. This is very convenient because the virtual computers that Kaggle lets us use are very similar to what we would set up if we would install these languages on our own desktop PCs, but without the hassle of installing the software. We have chosen R as we have found that it is a nice language for getting started, though more experienced group members use a variety of other languages as well. When we create a Kaggle 'kernel' we are using Kaggle's computing environment, together with one of the datasets, free of charge, to develop code and documentation which analyses the data. By having a Kaggle user account, we get access to these resources, and our work is stored so that we can continue developing it at a later date, or sharing it with others, in any location with an internet connection.
+Kaggle is a website that organises data science competitions. One of the company's key goals is education and building data analysis communities, and there is no need to take an active part in competitions to benefit from its resources. In particular, we can make use of (i) a wide range of interesting datasets that Kaggle has curated and made available for use; and (ii) a cloud-based computing environment which allows us to analyse these data using R, Python and other open-source data analysis computing languages. This is very convenient because the virtual computers that Kaggle lets us use are very similar to what we would set up if we would install these languages on our own desktop PCs, but without the hassle of installing the software. Kaggle supports a number of open-source data analysis software environments, including Python and R. We have chosen R as we have found that it is a nice language for getting started, though more experienced group members use a variety of other languages too. When we create a Kaggle 'kernel' we are using Kaggle's computing environment, together with one of the datasets, free of charge, to develop code and documentation to analyse the data. By having a Kaggle user account, we get access to these resources, and our work is stored so that we can continue developing it at a later date, or sharing it with others, in any location with an internet connection.
 
 ## Playing with the Kaggle kernels
 
@@ -54,7 +56,7 @@ The R code might initially look confusing. In general, this is what is happening
 * After doing some analysis, we might put part of the dataframe into a new dataframe, perhaps with a different name. At this point, both dataframes are available for further analysis. 
 * At each subsequent step, we are generally taking one of our existing dataframes and doing some kind of transformations on the data, either to produce more data, to produce a chart, or to export the data for use elsewhere, perhaps in a spreadsheet.
 
-## If the session becomes unresponsive:-
+## If the session becomes unresponsive
 Kaggle kernels are not as reliable as having R installed on your local PC. Sometimes the kernel session seems to become unresponsive. It may help to press the 'Restart' button at the top, or to reload the whole page in your browser. In either case, you'll start a new computer session so you'll have to re-run the steps that you took in your previous session to get your data back to its previous state. 
 
 ## Resuming work on a kernel that you previously created/forked:-
@@ -62,6 +64,12 @@ Kaggle kernels are not as reliable as having R installed on your local PC. Somet
 2. Click on Kernels, then select filter to see your personal kernels by clicking on 'Mine' . You can then choose the kernels that you already have, including those that you previously forked (and edited) from the axaimdc account.
 3. Click on the blue 'Edit Notebook' button. (You may have to agree to 'competition rules' if you're using one of the 'competition' datasets.) This will launch a virtual computer that you can use for editing and running your R code.
 4. You'll need to re-run the code cells that you previously wrote if you want to see/refresh the output tables and charts.
+
+## More tips for working in Kaggle kernels
+
+* Your kernel (the one that you forked from the original kernel) is private, and cannot be seen by other users, until you click on `Public` at the top of the kernel. After this, you can share the URL for your kernel with others who will see it.
+* If you want to make your work *really* public, click on `Publish`. Then  your work will appear in the list of the latest work under way on the particular Kaggle dataset that you're looking at. In this case, please be aware of the usual privacy issues...
+* Your work is regularly saved automatically. However the latest version is only available for others to see after you have (i) made the kernel Public (see above) and (ii) exited from the kernel session.
 
 
 ## Moving from Kaggle kernels to RStudio
@@ -76,7 +84,7 @@ install.packages('tidyverse')
 5. I’ll create ‘.r’ files based on the Kaggle kernels which we can use as an alternative to the Kaggle kernels.
 
 
-## References: Interesting Data Sources
+## References: Favourite Data Sources
 
 https://public.enigma.com/
 
