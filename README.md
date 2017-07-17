@@ -24,6 +24,24 @@ Excel will remain a central analysis tool for all of us. However these are some 
 * Traditionally, R was quite hard to approach. For many years there were several good tools available for each task, but no guidance on which would give the best immediate or long-term results for developing a project. Happily, over the past 5 to 10 years, a collection of R packages, sometimes called the 'Tidyverse', has been developed which offers a comprehensive and consistent set of tools for most basic business data manipulation and visualisation tasks.
 * There are thousands of specialised packages that we can install in R which handle more unusual analysis problems, including all the latest statistical and machine learning techniques. All are free.
 
+## What can I do in R that I can't do in Excel?
+
+If you haven't used R before, and after spending a short time learning, the following should be quite easy for you:-
+
+* create legible, attractive, modern charts
+* clear, transparent formulas for calculations
+* easy, robust recalculations of very large datasets
+* (at work) improved productivity in creating and updating your analyses
+
+After learning a bit more, you'll probably be able to do the following (and more) better than you can in Excel:-
+
+* codified end-to-end processes (import, clean, transform, summarise, model, chart, export...)
+* audit trail
+* teamwork
+* source control, version comparison
+* text analysis
+* machine learning
+
 ## Getting set up: basic requirements
 
 1. A computer with internet connection and Chrome or Firefox browser. Note you can't develop Kaggle kernels with Internet Explorer.
