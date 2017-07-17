@@ -68,11 +68,21 @@ In our first sessions, we looked at a few kernels where we tried to illustrate s
 ## What happens during the R session?
 The R code might initially look confusing. In general, this is what is happening as we continue our analysis: 
 
-* Firstly, we have to import some data into the R session. This usually means getting R to open a CSV file (or spreadhseet) and putting the table of data in that sheet into a ‘dataframe’. 
-* We give the dataframe which contains our data a name, often ‘df’.
-* Just like well-organised a spreadsheet, the dataframe has named columns, and a certain number of rows of data. That’s why we can easily apply spreadsheet-like actions to it like sorting or filtering.
+* Firstly, we have to import some data into the R session. This usually means getting R to open a CSV file (or spreadhseet) and putting the table of data in that sheet into a **dataframe**. 
+* We give the dataframe which contains our data a name, often `df`.
+* Just like well-organised a spreadsheet, the dataframe has named **columns**, and a certain number of **rows** of data. That’s why we can easily apply spreadsheet-like actions to it like sorting or filtering.
 * After doing some analysis, we might put part of the dataframe into a new dataframe, perhaps with a different name. At this point, both dataframes are available for further analysis. 
 * At each subsequent step, we are generally taking one of our existing dataframes and doing some kind of transformations on the data, either to produce more data, to produce a chart, or to export the data for use elsewhere, perhaps in a spreadsheet.
+
+## A couple of quirks in R
+Here's a couple of things that might seem odd at first in R for those who are more familiar with Excel, VBA or any traditional programming language. Don't worry if this seems unclear, by looking at a few examples you will soon get the hang of it.
+
+**`<-`** this is the *assignment* operator. It is supposed to look like a backwards arrow (see?) For example, when we execute 
+`b <- 2`, we are assigning the value of `2` to `b`. This seems odd at first: in most programming languages, you would assign with 
+`b = 2`.
+
+**`%>%`** this is the *pipe* operator. See examples in the kernel notebooks for how this works. It is part of an R package called magrittr.
+
 
 ## If the session becomes unresponsive
 Kaggle kernels are not as reliable as having R installed on your local PC. Sometimes the kernel session seems to become unresponsive. It may help to press the 'Restart' button at the top, or to reload the whole page in your browser. In either case, you'll start a new computer session so you'll have to re-run the steps that you took in your previous session to get your data back to its previous state. 
